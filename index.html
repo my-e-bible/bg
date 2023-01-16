@@ -1,14 +1,74 @@
-<html>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<!doctype html>
+<html lang="en">
 <head>
-<title>СИНОДАЛНА БИБЛИЯ</title>
+    <title>СИНОДАЛНА БИБЛИЯ</title>
+    <meta content="Bitcoin (BTC) price in 167 Fiat currencies" name="description" />
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLS7JPFSN9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-<link href="bootstrap/bootstrap.min.css" rel="stylesheet">
-<script src="bootstrap/bootstrap.bundle.min.js"></script>
-
+      gtag('config', 'G-VLS7JPFSN9');
+    </script>
+    <style>
+    ul, ol {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+    }
+    li:hover {
+    }
+    li a {
+        display: block;
+        border: 3px solid black;
+        text-decoration: none;
+        color: unset;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        text-align: left;
+    }
+    li a:link {
+        background: white;
+    }
+    li a:visited {
+        background: #f0f8ff;
+    }
+    li a:hover {
+        text-decoration: none;
+        color: unset;
+        background: black;
+        color: white;
+        cursor: pointer;
+    }
+    </style>
 </head>
 <body>
-БИБЛИЯ<br>
+    <div class="col-lg-8 mx-auto p-3">
+        <div class="text-center"><a href="/bg"><img src="logo/bible-small.png" width="80" height="80"></a></div>
+        <h1 class="text-center">БИБЛИЯ</h1>
+        <br/>
+        
+        <div class="input-group input-group-lg">
+          <span class="input-group-text" id="inputGroup-sizing-lg">Search</span>
+          <input type="text" id="searchInput" onkeyup="Search()" placeholder="coin or currency" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+          <button class="btn btn-outline-secondary" type="button" onclick="document.getElementById('searchInput').value = '';document.getElementById('searchInput').focus();Search()">X</button>
+        </div>
+        <br/>
+        
+        <ul id="searchOL">
+<br>
 
 КНИГИ НА СТАРИЯ ЗАВЕТ<br>
 
@@ -92,5 +152,7 @@
 <i><b> 25.</b></i><a href="new-testament/25.html">Послание на св.ап.Павла до Филимона </a><br>
 <i><b> 26.</b></i><a href="new-testament/26.html">Послание на св.ап.Павла до Евреите </a><br>
 <i><b> 27.</b></i><a href="new-testament/27.html">Откровение   на св.Йоана Богослова</a>
+
+</ul>
 </body>
 </html>
