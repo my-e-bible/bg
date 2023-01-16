@@ -43,7 +43,7 @@
         background: white;
     }
     li a:visited {
-        background: #f0f8ff;
+        /*background: #f0f8ff;*/
     }
     li a:hover {
         text-decoration: none;
@@ -62,7 +62,7 @@
         
         <div class="input-group input-group-lg">
           <span class="input-group-text" id="inputGroup-sizing-lg">Търси</span>
-          <input type="text" id="searchInput" onkeyup="Search()" placeholder="заглавие" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+          <input type="text" id="searchInput" onkeyup="Search()" placeholder="заглавие или номер" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
           <button class="btn btn-outline-secondary" type="button" onclick="document.getElementById('searchInput').value = '';document.getElementById('searchInput').focus();Search()">X</button>
         </div>
         <br>
